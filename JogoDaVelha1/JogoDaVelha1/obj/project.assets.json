@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dev\\source\\repos\\JogoDaVelha1\\JogoDaVelha1\\JogoDaVelha1.csproj",
+      "projectUniqueName": "C:\\Users\\dev\\Source\\Repos\\AryzeD\\Jogo_da_Velha\\JogoDaVelha1\\JogoDaVelha1\\JogoDaVelha1.csproj",
       "projectName": "JogoDaVelha1",
-      "projectPath": "C:\\Users\\dev\\source\\repos\\JogoDaVelha1\\JogoDaVelha1\\JogoDaVelha1.csproj",
+      "projectPath": "C:\\Users\\dev\\Source\\Repos\\AryzeD\\Jogo_da_Velha\\JogoDaVelha1\\JogoDaVelha1\\JogoDaVelha1.csproj",
       "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dev\\source\\repos\\JogoDaVelha1\\JogoDaVelha1\\obj\\",
+      "outputPath": "C:\\Users\\dev\\Source\\Repos\\AryzeD\\Jogo_da_Velha\\JogoDaVelha1\\JogoDaVelha1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -37,20 +37,25 @@ namespace JogoDaVelha1
             {
                 X1.Visible = true;
                 lblVez.Text = "O";
-            } else if (lblVez.Text == "O")
+            }
+            else 
             {
                 O1.Visible = true;
                 lblVez.Text = "X";
-            } 
-            else if (X1.Visible == true /* && X2.Visible == true && X3.Visible == true*/ )
+            }
+            if (X1.Visible == true && X2.Visible == true && X3.Visible == true
+                || X1.Visible == true && X5.Visible == true && X7.Visible == true
+                || X1.Visible == true && X5.Visible == true && X9.Visible == true)
             {
                 lblVenceu.Text = "X Venceu";
             }
 
-           /* else if (O1.Visible == true && O2.Visible == true && O3.Visible == true)
+            else if (O1.Visible == true && O2.Visible == true && O3.Visible == true
+                || O1.Visible == true && O5.Visible == true && O7.Visible == true
+                || O1.Visible == true && O5.Visible == true && O9.Visible == true)
             {
                 lblVenceu.Text = "O Venceu";
-            } */
+            }
         }
 
         private void btn2_Click(object sender, EventArgs e)
@@ -59,12 +64,13 @@ namespace JogoDaVelha1
             {
                 X2.Visible = true;
                 lblVez.Text = "O";
-            } else if (lblVez.Text == "O")
+            }
+            else 
             {
                 O2.Visible = true;
                 lblVez.Text = "X";
-            } 
-            /* else if (X1.Visible == true && X2.Visible == true && X3.Visible == true
+            }
+            if (X1.Visible == true && X2.Visible == true && X3.Visible == true
                 || X2.Visible == true && X5.Visible == true && X8.Visible == true)
             {
                 lblVenceu.Text = "X Venceu";
@@ -74,7 +80,7 @@ namespace JogoDaVelha1
                 || O2.Visible == true && O5.Visible == true && O8.Visible == true)
             {
                 lblVenceu.Text = "O Venceu";
-            } */
+            }
         }
 
         private void btn3_Click(object sender, EventArgs e)
@@ -84,12 +90,12 @@ namespace JogoDaVelha1
                 X3.Visible = true;
                 lblVez.Text = "O";
             }
-            else if (lblVez.Text == "O")
+            else
             {
                 O3.Visible = true;
                 lblVez.Text = "X";
-            } /*
-            else if (X1.Visible == true && X2.Visible == true && X3.Visible == true
+            }
+            if (X1.Visible == true && X2.Visible == true && X3.Visible == true
                 || X3.Visible == true && X5.Visible == true && X7.Visible == true
                 || X3.Visible == true && X6.Visible == true && X9.Visible == true)
             {
@@ -101,7 +107,7 @@ namespace JogoDaVelha1
                 || O3.Visible == true && O6.Visible == true && O9.Visible == true)
             {
                 lblVenceu.Text = "O Venceu";
-            } */
+            }
         }
 
         private void btn4_Click(object sender, EventArgs e)
@@ -111,12 +117,12 @@ namespace JogoDaVelha1
                 X4.Visible = true;
                 lblVez.Text = "O";
             }
-            else if (lblVez.Text == "O")
+            else
             {
                 O4.Visible = true;
                 lblVez.Text = "X";
-            } /*
-            else if (X4.Visible == true && X5.Visible == true && X6.Visible == true
+            }
+            if (X4.Visible == true && X5.Visible == true && X6.Visible == true
                 || X4.Visible == true && X1.Visible == true && X7.Visible == true)
             {
                 lblVenceu.Text = "X Venceu";
@@ -126,7 +132,7 @@ namespace JogoDaVelha1
                 || O4.Visible == true && O1.Visible == true && O7.Visible == true)
             {
                 lblVenceu.Text = "O Venceu";
-            } */
+            }
         }
 
         private void btn5_Click(object sender, EventArgs e)
@@ -136,12 +142,12 @@ namespace JogoDaVelha1
                 X5.Visible = true;
                 lblVez.Text = "O";
             }
-            else if (lblVez.Text == "O")
+            else
             {
                 O5.Visible = true;
                 lblVez.Text = "X";
-            } /*
-            else if (X4.Visible == true && X5.Visible == true && X6.Visible == true
+            }
+            if (X4.Visible == true && X5.Visible == true && X6.Visible == true
                 || X2.Visible == true && X5.Visible == true && X8.Visible == true
                 || X1.Visible == true && X5.Visible == true && X9.Visible == true
                 || X3.Visible == true && X5.Visible == true && X7.Visible == true)
@@ -155,7 +161,7 @@ namespace JogoDaVelha1
                 || O3.Visible == true && O5.Visible == true && O7.Visible == true)
             {
                 lblVenceu.Text = "O Venceu";
-            } */
+            }
         }
 
         private void btn6_Click(object sender, EventArgs e)
@@ -165,12 +171,12 @@ namespace JogoDaVelha1
                 X6.Visible = true;
                 lblVez.Text = "O";
             }
-            else if (lblVez.Text == "O")
+            else
             {
                 O6.Visible = true;
                 lblVez.Text = "X";
-            } /*
-            else if (X3.Visible == true && X6.Visible == true && X9.Visible == true
+            }
+            if (X3.Visible == true && X6.Visible == true && X9.Visible == true
                 || X4.Visible == true && X5.Visible == true && X6.Visible == true)
             {
                 lblVenceu.Text = "X Venceu";
@@ -180,7 +186,7 @@ namespace JogoDaVelha1
                 || O4.Visible == true && O5.Visible == true && O6.Visible == true)
             {
                 lblVenceu.Text = "O Venceu";
-            } */
+            }
         }
 
         private void btn7_Click(object sender, EventArgs e)
@@ -190,12 +196,12 @@ namespace JogoDaVelha1
                 X7.Visible = true;
                 lblVez.Text = "O";
             }
-            else if(lblVez.Text == "O")
+            else
             {
                 O7.Visible = true;
                 lblVez.Text = "X";
-            } /*
-            else if (X7.Visible == true && X8.Visible == true && X9.Visible == true
+            }
+            if (X7.Visible == true && X8.Visible == true && X9.Visible == true
                 || X1.Visible == true && X4.Visible == true && X7.Visible == true
                 || X3.Visible == true && X5.Visible == true && X7.Visible == true)
             {
@@ -207,7 +213,7 @@ namespace JogoDaVelha1
                 || O3.Visible == true && O5.Visible == true && O7.Visible == true)
             {
                 lblVenceu.Text = "O Venceu";
-            } */
+            }
         }
 
         private void btn8_Click(object sender, EventArgs e)
@@ -217,12 +223,12 @@ namespace JogoDaVelha1
                 X8.Visible = true;
                 lblVez.Text = "O";
             }
-            else if (lblVez.Text == "O")
+            else
             {
                 O8.Visible = true;
                 lblVez.Text = "X";
-            } /*
-            else if (X2.Visible == true && X5.Visible == true && X8.Visible == true
+            }
+            if (X2.Visible == true && X5.Visible == true && X8.Visible == true
                 || X7.Visible == true && X8.Visible == true && X9.Visible == true)
             {
                 lblVenceu.Text = "X Venceu";
@@ -232,7 +238,7 @@ namespace JogoDaVelha1
                 || O7.Visible == true && O8.Visible == true && O9.Visible == true)
             {
                 lblVenceu.Text = "O Venceu";
-            } */
+            }
         }
 
         private void btn9_Click(object sender, EventArgs e)
@@ -242,12 +248,12 @@ namespace JogoDaVelha1
                 X9.Visible = true;
                 lblVez.Text = "O";
             }
-            else if (lblVez.Text == "O")
+            else
             {
                 O9.Visible = true;
                 lblVez.Text = "X";
-            } /*
-            else if (X7.Visible == true && X8.Visible == true && X9.Visible == true
+            }
+            if (X7.Visible == true && X8.Visible == true && X9.Visible == true
                 || X1.Visible == true && X5.Visible == true && X9.Visible == true
                 || X3.Visible == true && X6.Visible == true && X9.Visible == true)
             {
@@ -258,8 +264,8 @@ namespace JogoDaVelha1
                 || O1.Visible == true && O5.Visible == true && O9.Visible == true
                 || O3.Visible == true && O6.Visible == true && O9.Visible == true)
             {
-                lblVenceu.Text = "O Venceu"; 
-            } */
+                lblVenceu.Text = "O Venceu";
+            }
         }
     }
 }

@@ -415,7 +415,6 @@
             this.lblVenceu.Name = "lblVenceu";
             this.lblVenceu.Size = new System.Drawing.Size(0, 37);
             this.lblVenceu.TabIndex = 52;
-            this.lblVenceu.Visible = false;
             // 
             // Form1
             // 
